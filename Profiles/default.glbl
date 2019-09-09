@@ -44,4 +44,9 @@
       <initValue>'Laki-laki'</initValue>
       <name>jenis_kelamin</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Ambil Foto / Pilih Foto</description>
+      <initValue>'Pilih Foto'</initValue>
+      <name>choose_upload_foto</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

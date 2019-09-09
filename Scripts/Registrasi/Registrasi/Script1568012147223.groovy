@@ -112,4 +112,16 @@ Mobile.setText(findTestObject('Object Repository/Halaman Registrasi/Registrasi i
 
 Mobile.tap( findTestObject('Object Repository/Halaman Registrasi/Button - LANJUT'), 10)
 
+'Input KTP NO'
+Mobile.setText(findTestObject('Object Repository/Halaman Registrasi/Regitrasi - nomor KTP'), '1234567890123456', 10)
+
+'Upload KTP'
+Mobile.tap(findTestObject('Object Repository/Halaman Registrasi/Registrasi - Upload KTP'), 10)
+
+upload_foto = findTestObject('Object Repository/Halaman Registrasi/pilihan registrasi/Pilihan - Tahun lahir')
+
+upload_foto.addProperty('text', ConditionType.EQUALS, GlobalVariable.choose_upload_foto)
+
+Mobile.tap(upload_foto, 10)
+
 
