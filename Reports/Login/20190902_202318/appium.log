@@ -1,0 +1,214 @@
+[35m[Appium][39m Welcome to Appium v1.8.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 11053
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 11054
+[35m[Appium][39m   tmpDir: C:\Users\METEOR~1\AppData\Local\Temp\\Katalon\Appium\Temp1567430847684
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:11053
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m174 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 020919.apk","noReset":true,"newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ZDDAE6LZQKTKW4BI","deviceName":"vivo vivo 1802 (Android 8.1.0)","fullReset":false,"platform":"ANDROID"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 020919.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"vivo vivo 1802 (Android 8.1.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:udid":"ZDDAE6LZQKTKW4BI"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   app: C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: vivo vivo 1802 (Android 8.1.0)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platformVersion: 8.1.0
+[35m[Appium][39m   udid: ZDDAE6LZQKTKW4BI
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
+[35m[BaseDriver][39m Session created with session id: 60abe328-4257-4618-a9f7-53806842c4a9
+[35m[BaseDriver][39m Using local app 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Meteor_PC\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Meteor_PC/.katalon/tools/android_sdk/build-tools/28.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\Meteor_PC\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: ZDDAE6LZQKTKW4BI
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\Meteor_PC\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\Meteor_PC\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\Meteor_PC\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\Meteor_PC\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\Meteor_PC\.katalon\tools\android_sdk\build-tools\28.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\Meteor_PC\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\Meteor_PC\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'id.meteor.alfamind'
+[35m[ADB][39m Main activity name: 'id.meteor.alfamind.Activity.SplashActivity'
+[35m[ADB][39m Getting device platform version
+[35m[ADB][39m Using apksigner.bat from C:\Users\Meteor_PC\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\Meteor_PC\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[35m[ADB][39m Successfully extracted 176 strings from 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk' resources for '(default)' configuration
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Meteor_PC\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\Meteor_PC\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s ZDDAE6LZQKTKW4BI shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'id.meteor.alfamind/id.meteor.alfamind.Activity.SplashActivity'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 60abe328-4257-4618-a9f7-53806842c4a9 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m33806 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9 [39m[32m200[39m [90m63 ms - 1163[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9 [39m[32m200[39m [90m36 ms - 1163[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m189 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m12 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect [39m[32m200[39m [90m64 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Akun\").resourceId(\"id.meteor.alfamind:id/txv_account\").instance(27)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements [39m[32m200[39m [90m867 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/b4925525-dfeb-4d9e-ac5d-2a9c002f6a1e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId 058161e0-031a-4da2-829a-566e38dc0776 with 60abe328-4257-4618-a9f7-53806842c4a9
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/b4925525-dfeb-4d9e-ac5d-2a9c002f6a1e/location [39m[32m200[39m [90m97 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/b4925525-dfeb-4d9e-ac5d-2a9c002f6a1e/attribute/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/b4925525-dfeb-4d9e-ac5d-2a9c002f6a1e/attribute/text [39m[32m200[39m [90m138 ms - 16[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect [39m[32m200[39m [90m45 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Akun\").resourceId(\"id.meteor.alfamind:id/txv_account\").instance(27)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements [39m[32m200[39m [90m163 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/1242a3e1-115e-43a1-9c1b-cd1fee5f6988/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId 058161e0-031a-4da2-829a-566e38dc0776 with 60abe328-4257-4618-a9f7-53806842c4a9
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/1242a3e1-115e-43a1-9c1b-cd1fee5f6988/location [39m[32m200[39m [90m68 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"1242a3e1-115e-43a1-9c1b-cd1fee5f6988"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 1242a3e1-115e-43a1-9c1b-cd1fee5f6988
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/touch/perform [39m[32m200[39m [90m989 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect [39m[32m200[39m [90m47 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Logout\").resourceId(\"id.meteor.alfamind:id/logout\").instance(8)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements [39m[32m200[39m [90m126 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/e13e2ac2-18d6-4a3e-b8c4-4947270c0134/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId 058161e0-031a-4da2-829a-566e38dc0776 with 60abe328-4257-4618-a9f7-53806842c4a9
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/e13e2ac2-18d6-4a3e-b8c4-4947270c0134/location [39m[32m200[39m [90m84 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/e13e2ac2-18d6-4a3e-b8c4-4947270c0134/attribute/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/e13e2ac2-18d6-4a3e-b8c4-4947270c0134/attribute/text [39m[32m200[39m [90m87 ms - 18[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect [39m[32m200[39m [90m61 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Logout\").resourceId(\"id.meteor.alfamind:id/logout\").instance(8)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements [39m[32m200[39m [90m513 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/edb94eab-8f07-404f-963d-9017c720ef8f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId 058161e0-031a-4da2-829a-566e38dc0776 with 60abe328-4257-4618-a9f7-53806842c4a9
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/edb94eab-8f07-404f-963d-9017c720ef8f/location [39m[32m200[39m [90m148 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"edb94eab-8f07-404f-963d-9017c720ef8f"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: edb94eab-8f07-404f-963d-9017c720ef8f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/touch/perform [39m[32m200[39m [90m1447 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/window/rect [39m[32m200[39m [90m45 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Username or email address\").resourceId(\"id.meteor.alfamind:id/edt_email\").instance(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/elements [39m[32m200[39m [90m647 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/3ccd9509-0a22-4757-92ac-22cb8929a7b4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId 058161e0-031a-4da2-829a-566e38dc0776 with 60abe328-4257-4618-a9f7-53806842c4a9
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/3ccd9509-0a22-4757-92ac-22cb8929a7b4/location [39m[32m200[39m [90m69 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/3ccd9509-0a22-4757-92ac-22cb8929a7b4/attribute/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9/element/3ccd9509-0a22-4757-92ac-22cb8929a7b4/attribute/text [39m[32m200[39m [90m80 ms - 37[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 60abe328-4257-4618-a9f7-53806842c4a9 from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/60abe328-4257-4618-a9f7-53806842c4a9 [39m[32m200[39m [90m444 ms - 14[39m
+[35m[HTTP][39m [90m[39m

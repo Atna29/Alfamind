@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Login" time="297" tests="4" failures="0" errors="0">
+    <testsuite name="Login" tests="4" failures="0" errors="0" time="297" timestamp="2019-09-02 20:23:28" hostname="Meteor_PC - 172.18.1.172" id="Test Suites/Login">
+        <properties>
+            <property name="deviceName" value="vivo vivo 1802 (Android 8.1.0)"/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318"/>
+            <property name="logFiles" value="C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\appium.log, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430666072.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430674989.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430678552.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430681900.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430683291.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430737332.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430748785.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430750813.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430755707.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430761283.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430764355.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430817749.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430829188.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430831033.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430836524.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430842014.png, C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430845187.png"/>
+            <property name="hostName" value="Meteor_PC - 172.18.1.172"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="deviceOS" value="Android"/>
+            <property name="appiumVersion" value="1.8.1"/>
+            <property name="deviceModel" value="vivo 1802"/>
+            <property name="hostAddress" value="172.18.1.172"/>
+            <property name="deviceManufacturer" value="vivo"/>
+            <property name="deviceId" value="ZDDAE6LZQKTKW4BI"/>
+            <property name="deviceName" value="vivo vivo 1802 (Android 8.1.0)"/>
+            <property name="deviceOSVersion" value="8.1.0"/>
+        </properties>
+        <testcase name="Test Cases/Login/login-field email null" classname="Test Cases/Login/login-field email null" status="PASSED">
+            <system-out>2019-09-02 20:23:29 - [TEST_CASE][PASSED] - Test Cases/Login/login-field email null: Test Cases/Login/login-field email null&#xD;
+&#xD;
+2019-09-02 20:23:30 - [TEST_STEP][PASSED] - startApplication(ApkFile, false): Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:23:45 - [MESSAGE][INFO] - Appium server started on port 10.106&#xD;
+&#xD;
+2019-09-02 20:24:22 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:24:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:24:25 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:24:25 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:24:27 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430666072.png]]&#xD;
+&#xD;
+2019-09-02 20:24:27 - [TEST_STEP][PASSED] - punya_toko = getText(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), 10, OPTIONAL): Text of element 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' is: 'Punya Toko Sendiri
+ Dengan Modal Minim'&#xD;
+&#xD;
+2019-09-02 20:24:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' is: 'Punya Toko Sendiri
+ Dengan Modal Minim'&#xD;
+&#xD;
+2019-09-02 20:24:28 - [TEST_STEP][PASSED] - Landing_page = verifyElementAttributeValue(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), "text", punya_toko, 10, OPTIONAL): Object 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' has attribute 'text' with value 'Punya Toko Sendiri
+ Dengan Modal Minim'&#xD;
+&#xD;
+2019-09-02 20:24:29 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' has attribute 'text' with value 'Punya Toko Sendiri
+ Dengan Modal Minim'&#xD;
+&#xD;
+2019-09-02 20:24:29 - [TEST_STEP][PASSED] - if (Landing_page == true): Tapped on element 'Object Repository/Landing Page/android.widget.Button0 - MULAI'&#xD;
+&#xD;
+2019-09-02 20:24:29 - [TEST_STEP][PASSED] - tap(findTestObject("Landing Page/next 1"), 10): Tapped on element 'Object Repository/Landing Page/next 1'&#xD;
+&#xD;
+2019-09-02 20:24:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Landing Page/next 1'&#xD;
+&#xD;
+2019-09-02 20:24:30 - [TEST_STEP][PASSED] - tap(findTestObject("Landing Page/next 2"), 10): Tapped on element 'Object Repository/Landing Page/next 2'&#xD;
+&#xD;
+2019-09-02 20:24:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Landing Page/next 2'&#xD;
+&#xD;
+2019-09-02 20:24:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Landing Page/android.widget.Button0 - MULAI"), 10): Tapped on element 'Object Repository/Landing Page/android.widget.Button0 - MULAI'&#xD;
+&#xD;
+2019-09-02 20:24:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Landing Page/android.widget.Button0 - MULAI'&#xD;
+&#xD;
+2019-09-02 20:24:34 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:24:36 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430674989.png]]&#xD;
+&#xD;
+2019-09-02 20:24:36 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Menu Bawah/Menu - Akun"), "text", "Akun", 10): Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:24:37 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:24:37 - [TEST_STEP][PASSED] - tap(findTestObject("Menu Bawah/Menu - Akun"), 10): Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:24:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:24:38 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:24:39 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430678552.png]]&#xD;
+&#xD;
+2019-09-02 20:24:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LOGIN/Login Button"), 10): Tapped on element 'Object Repository/LOGIN/Login Button'&#xD;
+&#xD;
+2019-09-02 20:24:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGIN/Login Button'&#xD;
+&#xD;
+2019-09-02 20:24:41 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:24:42 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430681900.png]]&#xD;
+&#xD;
+2019-09-02 20:24:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/LOGIN/Response/Masukkan alamat email"), "text", "Masukkan alamat email", 10): Element 'Object Repository/LOGIN/Response/Masukkan alamat email' not found&#xD;
+&#xD;
+2019-09-02 20:24:43 - [MESSAGE][WARNING] - Element 'Object Repository/LOGIN/Response/Masukkan alamat email' not found&#xD;
+&#xD;
+2019-09-02 20:24:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:24:44 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430683291.png]]&#xD;
+&#xD;
+2019-09-02 20:24:44 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully&#xD;
+&#xD;
+2019-09-02 20:24:46 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login/Login-invalid email" classname="Test Cases/Login/Login-invalid email" status="PASSED">
+            <system-out>2019-09-02 20:24:46 - [TEST_CASE][PASSED] - Test Cases/Login/Login-invalid email: Test Cases/Login/Login-invalid email&#xD;
+&#xD;
+2019-09-02 20:24:47 - [TEST_STEP][PASSED] - startApplication(ApkFile, false): Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:25:00 - [MESSAGE][INFO] - Appium server started on port 10.403&#xD;
+&#xD;
+2019-09-02 20:25:34 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:25:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:25:37 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:25:37 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:25:38 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430737332.png]]&#xD;
+&#xD;
+2019-09-02 20:25:38 - [TEST_STEP][PASSED] - punya_toko = getText(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), 10, OPTIONAL): Object Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim not found&#xD;
+&#xD;
+2019-09-02 20:25:50 - [MESSAGE][WARNING] - Object Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim not found&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430748785.png]]&#xD;
+&#xD;
+2019-09-02 20:25:50 - [TEST_STEP][PASSED] - Landing_page = verifyElementAttributeValue(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), "text", punya_toko, 10, OPTIONAL): Element 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' not found&#xD;
+&#xD;
+2019-09-02 20:25:50 - [MESSAGE][WARNING] - Element 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' not found&#xD;
+&#xD;
+2019-09-02 20:25:50 - [TEST_STEP][PASSED] - if (Landing_page == true): null&#xD;
+&#xD;
+2019-09-02 20:25:50 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:25:52 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430750813.png]]&#xD;
+&#xD;
+2019-09-02 20:25:52 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Menu Bawah/Menu - Akun"), "text", "Akun", 10): Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:25:53 - [TEST_STEP][PASSED] - tap(findTestObject("Menu Bawah/Menu - Akun"), 10): Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:25:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:25:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:25:56 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430755707.png]]&#xD;
+&#xD;
+2019-09-02 20:25:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN/android.widget.EditText0 - Username or email address"), "asjjj", 10): Text 'asjjj' has been set to element 'Object Repository/LOGIN/android.widget.EditText0 - Username or email address'&#xD;
+&#xD;
+2019-09-02 20:25:58 - [MESSAGE][PASSED] - Text 'asjjj' has been set to element 'Object Repository/LOGIN/android.widget.EditText0 - Username or email address'&#xD;
+&#xD;
+2019-09-02 20:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN/android.widget.EditText1 - Password"), "121333", 10): Text '121333' has been set to element 'Object Repository/LOGIN/android.widget.EditText1 - Password'&#xD;
+&#xD;
+2019-09-02 20:26:01 - [MESSAGE][PASSED] - Text '121333' has been set to element 'Object Repository/LOGIN/android.widget.EditText1 - Password'&#xD;
+&#xD;
+2019-09-02 20:26:01 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:26:02 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430761283.png]]&#xD;
+&#xD;
+2019-09-02 20:26:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LOGIN/Login Button"), 10): Tapped on element 'Object Repository/LOGIN/Login Button'&#xD;
+&#xD;
+2019-09-02 20:26:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGIN/Login Button'&#xD;
+&#xD;
+2019-09-02 20:26:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/LOGIN/Response/Masukkan alamat email yang benar"), "text", "Masukkan alamat email yang benar", 10): Element 'Object Repository/LOGIN/Response/Masukkan alamat email yang benar' not found&#xD;
+&#xD;
+2019-09-02 20:26:04 - [MESSAGE][WARNING] - Element 'Object Repository/LOGIN/Response/Masukkan alamat email yang benar' not found&#xD;
+&#xD;
+2019-09-02 20:26:04 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:26:05 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430764355.png]]&#xD;
+&#xD;
+2019-09-02 20:26:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully&#xD;
+&#xD;
+2019-09-02 20:26:06 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login/Login success" classname="Test Cases/Login/Login success" status="PASSED">
+            <system-out>2019-09-02 20:26:06 - [TEST_CASE][PASSED] - Test Cases/Login/Login success: Test Cases/Login/Login success&#xD;
+&#xD;
+2019-09-02 20:26:06 - [TEST_STEP][PASSED] - startApplication(ApkFile, false): Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:26:19 - [MESSAGE][INFO] - Appium server started on port 10.732&#xD;
+&#xD;
+2019-09-02 20:26:54 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:26:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:26:57 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:26:57 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:26:58 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430817749.png]]&#xD;
+&#xD;
+2019-09-02 20:26:59 - [TEST_STEP][PASSED] - punya_toko = getText(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), 10, OPTIONAL): Object Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim not found&#xD;
+&#xD;
+2019-09-02 20:27:10 - [MESSAGE][WARNING] - Object Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim not found&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430829188.png]]&#xD;
+&#xD;
+2019-09-02 20:27:10 - [TEST_STEP][PASSED] - Landing_page = verifyElementAttributeValue(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), "text", punya_toko, 10, OPTIONAL): Element 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' not found&#xD;
+&#xD;
+2019-09-02 20:27:11 - [MESSAGE][WARNING] - Element 'Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim' not found&#xD;
+&#xD;
+2019-09-02 20:27:11 - [TEST_STEP][PASSED] - if (Landing_page == true): null&#xD;
+&#xD;
+2019-09-02 20:27:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:27:12 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430831033.png]]&#xD;
+&#xD;
+2019-09-02 20:27:12 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Menu Bawah/Menu - Akun"), "text", "Akun", 10): Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:27:14 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:27:14 - [TEST_STEP][PASSED] - tap(findTestObject("Menu Bawah/Menu - Akun"), 10): Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:27:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:27:16 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:27:17 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430836524.png]]&#xD;
+&#xD;
+2019-09-02 20:27:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN/android.widget.EditText0 - Username or email address"), email_dev, 10): Text 'alfa.testwir@gmail.com' has been set to element 'Object Repository/LOGIN/android.widget.EditText0 - Username or email address'&#xD;
+&#xD;
+2019-09-02 20:27:19 - [MESSAGE][PASSED] - Text 'alfa.testwir@gmail.com' has been set to element 'Object Repository/LOGIN/android.widget.EditText0 - Username or email address'&#xD;
+&#xD;
+2019-09-02 20:27:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LOGIN/android.widget.EditText1 - Password"), pass_dev, 10): Text 'xbypsq' has been set to element 'Object Repository/LOGIN/android.widget.EditText1 - Password'&#xD;
+&#xD;
+2019-09-02 20:27:21 - [MESSAGE][PASSED] - Text 'xbypsq' has been set to element 'Object Repository/LOGIN/android.widget.EditText1 - Password'&#xD;
+&#xD;
+2019-09-02 20:27:21 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:27:23 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430842014.png]]&#xD;
+&#xD;
+2019-09-02 20:27:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LOGIN/Login Button"), 10): Tapped on element 'Object Repository/LOGIN/Login Button'&#xD;
+&#xD;
+2019-09-02 20:27:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LOGIN/Login Button'&#xD;
+&#xD;
+2019-09-02 20:27:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/LOGIN/Assert/Profil Saya"), "text", "Profil Saya", 10): Element 'Object Repository/LOGIN/Assert/Profil Saya' not found&#xD;
+&#xD;
+2019-09-02 20:27:25 - [MESSAGE][WARNING] - Element 'Object Repository/LOGIN/Assert/Profil Saya' not found&#xD;
+&#xD;
+2019-09-02 20:27:25 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken&#xD;
+&#xD;
+2019-09-02 20:27:26 - [MESSAGE][PASSED] - Screenshot is taken&#xD;
+[[ATTACHMENT|C:\\Users\\Meteor_PC\\Katalon Studio\\Alfamind\\Reports\\Login\\20190902_202318\\1567430845187.png]]&#xD;
+&#xD;
+2019-09-02 20:27:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully&#xD;
+&#xD;
+2019-09-02 20:27:26 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Log out" classname="Test Cases/Log out" status="PASSED">
+            <system-out>2019-09-02 20:27:26 - [TEST_CASE][PASSED] - Test Cases/Log out: Test Cases/Log out&#xD;
+&#xD;
+2019-09-02 20:27:27 - [TEST_STEP][PASSED] - startApplication(ApkFile, false): Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:27:41 - [MESSAGE][INFO] - Appium server started on port 11.053&#xD;
+&#xD;
+2019-09-02 20:28:15 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 020919.apk'&#xD;
+&#xD;
+2019-09-02 20:28:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:28:18 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-09-02 20:28:18 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Menu Bawah/Menu - Akun"), "text", "Akun", 10): Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:28:19 - [MESSAGE][PASSED] - Object 'Object Repository/Menu Bawah/Menu - Akun' has attribute 'text' with value 'Akun'&#xD;
+&#xD;
+2019-09-02 20:28:19 - [TEST_STEP][PASSED] - tap(findTestObject("Menu Bawah/Menu - Akun"), 10): Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:28:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Menu Bawah/Menu - Akun'&#xD;
+&#xD;
+2019-09-02 20:28:21 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Halaman Akun/Log out Button"), "text", "Logout", 10): Object 'Object Repository/Halaman Akun/Log out Button' has attribute 'text' with value 'Logout'&#xD;
+&#xD;
+2019-09-02 20:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/Halaman Akun/Log out Button' has attribute 'text' with value 'Logout'&#xD;
+&#xD;
+2019-09-02 20:28:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Halaman Akun/Log out Button"), 10): Tapped on element 'Object Repository/Halaman Akun/Log out Button'&#xD;
+&#xD;
+2019-09-02 20:28:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Halaman Akun/Log out Button'&#xD;
+&#xD;
+2019-09-02 20:28:23 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/LOGIN/android.widget.EditText0 - Username or email address"), "text", "Username or email address", 10): Object 'Object Repository/LOGIN/android.widget.EditText0 - Username or email address' has attribute 'text' with value 'Username or email address'&#xD;
+&#xD;
+2019-09-02 20:28:24 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/android.widget.EditText0 - Username or email address' has attribute 'text' with value 'Username or email address'&#xD;
+&#xD;
+2019-09-02 20:28:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully&#xD;
+&#xD;
+2019-09-02 20:28:25 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-02 20:23:28 - [TEST_SUITE][INCOMPLETE] - Login: null</system-out>
+        <system-err>2019-09-02 20:23:28 - [TEST_SUITE][INCOMPLETE] - Login: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 020919.apk'</initValue>
+      <name>ApkFile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'alfa.testwir@gmail.com'</initValue>
+      <name>email_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'xbypsq'</initValue>
+      <name>pass_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kobiton-store:38841'</initValue>
+      <name>Kobiton_apk_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>angka: 1920-2019</description>
+      <initValue>'2009'</initValue>
+      <name>tahun_lahir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>angka: 1-12</description>
+      <initValue>'12'</initValue>
+      <name>bulan_lahir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>angka: 1-31</description>
+      <initValue>'29'</initValue>
+      <name>tanggal_lahir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pilihan: Laki-laki, Perempuan</description>
+      <initValue>'Laki-laki'</initValue>
+      <name>jenis_kelamin</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

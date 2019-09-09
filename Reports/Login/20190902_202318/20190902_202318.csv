@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2019-09-02 20:23:28,2019-09-02 20:28:25,"4m - 57,180s",INCOMPLETE
+,,,,,,,
+Test Cases/Login/login-field email null,,,,2019-09-02 20:23:29,2019-09-02 20:24:46,"1m - 17,154s",PASSED
+"startApplication(ApkFile, false)",,,,2019-09-02 20:23:30,2019-09-02 20:24:22,"52,570s",PASSED
+delay(3),,,,2019-09-02 20:24:22,2019-09-02 20:24:25,"3,147s",PASSED
+takeScreenshot(),,,,2019-09-02 20:24:25,2019-09-02 20:24:27,"1,533s",PASSED
+"punya_toko = getText(findTestObject(""Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim""), 10, OPTIONAL)",,,,2019-09-02 20:24:27,2019-09-02 20:24:28,"0,982s",PASSED
+"Landing_page = verifyElementAttributeValue(findTestObject(""Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim""), ""text"", punya_toko, 10, OPTIONAL)",,,,2019-09-02 20:24:28,2019-09-02 20:24:29,"0,585s",PASSED
+if (Landing_page == true),,,,2019-09-02 20:24:29,2019-09-02 20:24:34,"5,888s",PASSED
+takeScreenshot(),,,,2019-09-02 20:24:34,2019-09-02 20:24:36,"1,278s",PASSED
+"waitForElementAttributeValue(findTestObject(""Menu Bawah/Menu - Akun""), ""text"", ""Akun"", 10)",,,,2019-09-02 20:24:36,2019-09-02 20:24:37,"0,772s",PASSED
+"tap(findTestObject(""Menu Bawah/Menu - Akun""), 10)",,,,2019-09-02 20:24:37,2019-09-02 20:24:38,"1,514s",PASSED
+takeScreenshot(),,,,2019-09-02 20:24:38,2019-09-02 20:24:39,"0,926s",PASSED
+"tap(findTestObject(""Object Repository/LOGIN/Login Button""), 10)",,,,2019-09-02 20:24:39,2019-09-02 20:24:41,"2,419s",PASSED
+takeScreenshot(),,,,2019-09-02 20:24:41,2019-09-02 20:24:43,"1,120s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/LOGIN/Response/Masukkan alamat email""), ""text"", ""Masukkan alamat email"", 10)",,,,2019-09-02 20:24:43,2019-09-02 20:24:43,"0,270s",PASSED
+takeScreenshot(),,,,2019-09-02 20:24:43,2019-09-02 20:24:44,"1,106s",PASSED
+closeApplication(),,,,2019-09-02 20:24:44,2019-09-02 20:24:46,"1,923s",PASSED
+,,,,,,,
+Test Cases/Login/Login-invalid email,,,,2019-09-02 20:24:46,2019-09-02 20:26:06,"1m - 19,671s",PASSED
+"startApplication(ApkFile, false)",,,,2019-09-02 20:24:47,2019-09-02 20:25:34,"47,213s",PASSED
+delay(3),,,,2019-09-02 20:25:34,2019-09-02 20:25:37,"3,008s",PASSED
+takeScreenshot(),,,,2019-09-02 20:25:37,2019-09-02 20:25:38,"1,310s",PASSED
+"punya_toko = getText(findTestObject(""Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim""), 10, OPTIONAL)",,,,2019-09-02 20:25:38,2019-09-02 20:25:50,"11,742s",PASSED
+"Landing_page = verifyElementAttributeValue(findTestObject(""Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim""), ""text"", punya_toko, 10, OPTIONAL)",,,,2019-09-02 20:25:50,2019-09-02 20:25:50,"0,414s",PASSED
+if (Landing_page == true),,,,2019-09-02 20:25:50,2019-09-02 20:25:50,"0,001s",PASSED
+takeScreenshot(),,,,2019-09-02 20:25:50,2019-09-02 20:25:52,"1,413s",PASSED
+"waitForElementAttributeValue(findTestObject(""Menu Bawah/Menu - Akun""), ""text"", ""Akun"", 10)",,,,2019-09-02 20:25:52,2019-09-02 20:25:53,"1,247s",PASSED
+"tap(findTestObject(""Menu Bawah/Menu - Akun""), 10)",,,,2019-09-02 20:25:53,2019-09-02 20:25:55,"2,240s",PASSED
+takeScreenshot(),,,,2019-09-02 20:25:55,2019-09-02 20:25:56,"1,195s",PASSED
+"setText(findTestObject(""Object Repository/LOGIN/android.widget.EditText0 - Username or email address""), ""asjjj"", 10)",,,,2019-09-02 20:25:56,2019-09-02 20:25:58,"2,052s",PASSED
+"setText(findTestObject(""Object Repository/LOGIN/android.widget.EditText1 - Password""), ""121333"", 10)",,,,2019-09-02 20:25:58,2019-09-02 20:26:01,"2,330s",PASSED
+takeScreenshot(),,,,2019-09-02 20:26:01,2019-09-02 20:26:02,"1,175s",PASSED
+"tap(findTestObject(""Object Repository/LOGIN/Login Button""), 10)",,,,2019-09-02 20:26:02,2019-09-02 20:26:04,"1,614s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/LOGIN/Response/Masukkan alamat email yang benar""), ""text"", ""Masukkan alamat email yang benar"", 10)",,,,2019-09-02 20:26:04,2019-09-02 20:26:04,"0,282s",PASSED
+takeScreenshot(),,,,2019-09-02 20:26:04,2019-09-02 20:26:05,"1,144s",PASSED
+closeApplication(),,,,2019-09-02 20:26:05,2019-09-02 20:26:06,"0,526s",PASSED
+,,,,,,,
+Test Cases/Login/Login success,,,,2019-09-02 20:26:06,2019-09-02 20:27:26,"1m - 20,881s",PASSED
+"startApplication(ApkFile, false)",,,,2019-09-02 20:26:06,2019-09-02 20:26:54,"47,935s",PASSED
+delay(3),,,,2019-09-02 20:26:54,2019-09-02 20:26:57,"3,014s",PASSED
+takeScreenshot(),,,,2019-09-02 20:26:57,2019-09-02 20:26:59,"1,287s",PASSED
+"punya_toko = getText(findTestObject(""Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim""), 10, OPTIONAL)",,,,2019-09-02 20:26:59,2019-09-02 20:27:10,"11,576s",PASSED
+"Landing_page = verifyElementAttributeValue(findTestObject(""Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim""), ""text"", punya_toko, 10, OPTIONAL)",,,,2019-09-02 20:27:10,2019-09-02 20:27:11,"0,410s",PASSED
+if (Landing_page == true),,,,2019-09-02 20:27:11,2019-09-02 20:27:11,"0,001s",PASSED
+takeScreenshot(),,,,2019-09-02 20:27:11,2019-09-02 20:27:12,"1,795s",PASSED
+"waitForElementAttributeValue(findTestObject(""Menu Bawah/Menu - Akun""), ""text"", ""Akun"", 10)",,,,2019-09-02 20:27:12,2019-09-02 20:27:14,"1,358s",PASSED
+"tap(findTestObject(""Menu Bawah/Menu - Akun""), 10)",,,,2019-09-02 20:27:14,2019-09-02 20:27:16,"2,344s",PASSED
+takeScreenshot(),,,,2019-09-02 20:27:16,2019-09-02 20:27:17,"1,332s",PASSED
+"setText(findTestObject(""Object Repository/LOGIN/android.widget.EditText0 - Username or email address""), email_dev, 10)",,,,2019-09-02 20:27:17,2019-09-02 20:27:19,"1,896s",PASSED
+"setText(findTestObject(""Object Repository/LOGIN/android.widget.EditText1 - Password""), pass_dev, 10)",,,,2019-09-02 20:27:19,2019-09-02 20:27:21,"2,244s",PASSED
+takeScreenshot(),,,,2019-09-02 20:27:21,2019-09-02 20:27:23,"1,282s",PASSED
+"tap(findTestObject(""Object Repository/LOGIN/Login Button""), 10)",,,,2019-09-02 20:27:23,2019-09-02 20:27:24,"1,696s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/LOGIN/Assert/Profil Saya""), ""text"", ""Profil Saya"", 10)",,,,2019-09-02 20:27:24,2019-09-02 20:27:25,"0,210s",PASSED
+takeScreenshot(),,,,2019-09-02 20:27:25,2019-09-02 20:27:26,"1,147s",PASSED
+closeApplication(),,,,2019-09-02 20:27:26,2019-09-02 20:27:26,"0,582s",PASSED
+,,,,,,,
+Test Cases/Log out,,,,2019-09-02 20:27:26,2019-09-02 20:28:25,"58,454s",PASSED
+"startApplication(ApkFile, false)",,,,2019-09-02 20:27:27,2019-09-02 20:28:15,"48,031s",PASSED
+delay(3),,,,2019-09-02 20:28:15,2019-09-02 20:28:18,"3,009s",PASSED
+"waitForElementAttributeValue(findTestObject(""Menu Bawah/Menu - Akun""), ""text"", ""Akun"", 10)",,,,2019-09-02 20:28:18,2019-09-02 20:28:19,"1,236s",PASSED
+"tap(findTestObject(""Menu Bawah/Menu - Akun""), 10)",,,,2019-09-02 20:28:19,2019-09-02 20:28:21,"1,341s",PASSED
+"waitForElementAttributeValue(findTestObject(""Halaman Akun/Log out Button""), ""text"", ""Logout"", 10)",,,,2019-09-02 20:28:21,2019-09-02 20:28:21,"0,412s",PASSED
+"tap(findTestObject(""Object Repository/Halaman Akun/Log out Button""), 10)",,,,2019-09-02 20:28:21,2019-09-02 20:28:23,"2,240s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/LOGIN/android.widget.EditText0 - Username or email address""), ""text"", ""Username or email address"", 10)",,,,2019-09-02 20:28:23,2019-09-02 20:28:24,"0,905s",PASSED
+closeApplication(),,,,2019-09-02 20:28:24,2019-09-02 20:28:25,"0,526s",PASSED
