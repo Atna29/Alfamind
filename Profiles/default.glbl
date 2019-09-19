@@ -6,47 +6,97 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 020919.apk'</initValue>
+      <initValue>'C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 180919.apk'</initValue>
       <name>ApkFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Registrasi Page</description>
+      <initValue>'Testing'</initValue>
+      <name>nama_depan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'Pertama'</initValue>
+      <name>nama_belakang</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page, pilihan: Laki-laki, Perempuan</description>
+      <initValue>'Perempuan'</initValue>
+      <name>jenis_kelamin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
       <initValue>'alfa.testwir@gmail.com'</initValue>
-      <name>email_dev</name>
+      <name>new_email_register</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'xbypsq'</initValue>
-      <name>pass_dev</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'kobiton-store:38841'</initValue>
-      <name>Kobiton_apk_id</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>angka: 1920-2019</description>
-      <initValue>'2009'</initValue>
-      <name>tahun_lahir</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>angka: 1-12</description>
-      <initValue>'12'</initValue>
-      <name>bulan_lahir</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>angka: 1-31</description>
+      <description>Registrasi Page, angka: 1-31</description>
       <initValue>'29'</initValue>
       <name>tanggal_lahir</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>pilihan: Laki-laki, Perempuan</description>
-      <initValue>'Laki-laki'</initValue>
-      <name>jenis_kelamin</name>
+      <description>Reristrasi Page, angka: 1-12</description>
+      <initValue>'12'</initValue>
+      <name>bulan_lahir</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Ambil Foto / Pilih Foto</description>
-      <initValue>'Pilih Foto'</initValue>
+      <description>Registrasi Page, angka: 1920-2019</description>
+      <initValue>'1993'</initValue>
+      <name>tahun_lahir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'087812348765'</initValue>
+      <name>no_phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page, 16 Digit</description>
+      <initValue>'1234567890123456'</initValue>
+      <name>no_ktp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page, Ambil Foto / Pilih Foto</description>
+      <initValue>'Ambil Foto'</initValue>
       <name>choose_upload_foto</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'jalan jalan'</initValue>
+      <name>new_alamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'BANTEN'</initValue>
+      <name>provinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'KOTA TANGERANG'</initValue>
+      <name>kabupaten</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'TANGERANG'</initValue>
+      <name>kecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page</description>
+      <initValue>'CIKOKOL'</initValue>
+      <name>kelurahan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registrasi Page, 5 Digit</description>
+      <initValue>'12245'</initValue>
+      <name>kode_pos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Login Page</description>
+      <initValue>'alfa.testwir@gmail.com'</initValue>
+      <name>email_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Login Page</description>
+      <initValue>'123456'</initValue>
+      <name>pass_dev</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

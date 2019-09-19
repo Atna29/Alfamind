@@ -13,13 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.ApkFile, false)
-
-Mobile.delay(3)
-
-Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 10)
-
-Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 10)
-
-Mobile.closeApplication()
-
