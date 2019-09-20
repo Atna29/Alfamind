@@ -145,7 +145,7 @@ object_provinsi = findTestObject('Object Repository/Halaman Registrasi/pilihan r
 
 object_provinsi.addProperty('text', ConditionType.EQUALS, GlobalVariable.provinsi)
 
-if (Mobile.verifyElementNotExist(object_tanggal, 5, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementNotExist(object_provinsi, 5, FailureHandling.OPTIONAL)) {
     Mobile.scrollToText(GlobalVariable.provinsi)
 }
 
@@ -158,7 +158,7 @@ object_kabupaten = findTestObject('Object Repository/Halaman Registrasi/pilihan 
 
 object_kabupaten.addProperty('text', ConditionType.EQUALS, GlobalVariable.kabupaten)
 
-if (Mobile.verifyElementNotExist(object_tanggal, 5, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementNotExist(object_kabupaten, 5, FailureHandling.OPTIONAL)) {
 	Mobile.scrollToText(GlobalVariable.kabupaten)
 }
 
@@ -171,7 +171,7 @@ object_kecamatan = findTestObject('Object Repository/Halaman Registrasi/pilihan 
 
 object_kecamatan.addProperty('text', ConditionType.EQUALS, GlobalVariable.kecamatan)
 
-if (Mobile.verifyElementNotExist(object_tanggal, 5, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementNotExist(object_kecamatan, 5, FailureHandling.OPTIONAL)) {
 	Mobile.scrollToText(GlobalVariable.kecamatan)
 }
 
@@ -184,7 +184,7 @@ object_kelurahan = findTestObject('Object Repository/Halaman Registrasi/pilihan 
 
 object_kelurahan.addProperty('text', ConditionType.EQUALS, GlobalVariable.kelurahan)
 
-if (Mobile.verifyElementNotExist(object_tanggal, 5, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementNotExist(object_kelurahan, 5, FailureHandling.OPTIONAL)) {
 	Mobile.scrollToText(GlobalVariable.kelurahan)
 }
 
