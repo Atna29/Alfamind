@@ -40,30 +40,31 @@ if (Landing_page == true) {
 'Home Page'
 Mobile.takeScreenshot()
 
-Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 10)
+Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 5)
 
-Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 10)
+Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
-'Halaman Login'
+'Halaman Login/Account'
 Mobile.takeScreenshot()
 
-Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), GlobalVariable.email_dev, 
-    10)
+'Check User already Login or Not'
+if (Mobile.verifyElementNotExist(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 5, FailureHandling.OPTIONAL)) {
+	Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), GlobalVariable.email_dev,
+		10)
 
-Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), GlobalVariable.pass_dev, 10)
+	Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), GlobalVariable.pass_dev,
+		10)
 
-'Menginput field email & password'
-Mobile.takeScreenshot()
+	'Menginput field email & password'
+	Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 10)
+	Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 10)
 
-Mobile.waitForElementPresent( findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 10)
+	Mobile.waitForElementPresent(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 10)
 
-'Verify'
-Mobile.verifyElementText( findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 'Profil Saya',)
+	'Verify'
+	Mobile.verifyElementText(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 'Profil Saya')
 
-'Halaman Akun'
-Mobile.takeScreenshot()
-
-Mobile.closeApplication()
-
+	'Halaman Akun'
+	Mobile.takeScreenshot()
+}
