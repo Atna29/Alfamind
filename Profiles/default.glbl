@@ -99,4 +99,14 @@
       <initValue>'123456'</initValue>
       <name>pass_dev</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Beli pulsa Page</description>
+      <initValue>'088801426139'</initValue>
+      <name>no_phone_pulsa</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'685976'</initValue>
+      <name>CVV</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -32,6 +32,6 @@
       <guid>2e86105a-074b-4cb6-b0f9-25734a283816</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Halaman Account/Log out</testCaseId>
+      <testCaseId>Test Cases/Halaman Account/logout/Log out</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

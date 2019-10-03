@@ -72,8 +72,6 @@ Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Search'), 5)
 
 Mobile.setText(findTestObject('Object Repository/Halaman Belanja/Search produk/Cari produk (search)'), 'bimoli', 5)
 
-Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Search produk/Produk paling atas'), 5)
+Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Search produk/Product dengan harga'), 5)
 
 Mobile.tapAtPosition(0, 1336)
-
-Mobile.tap()
