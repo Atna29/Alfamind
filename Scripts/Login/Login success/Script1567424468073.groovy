@@ -20,21 +20,21 @@ Mobile.startApplication(GlobalVariable.ApkFile, false)
 Mobile.delay(3)
 
 punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    10, FailureHandling.OPTIONAL)
+    5, FailureHandling.OPTIONAL)
 
 Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    'text', punya_toko, 10, FailureHandling.OPTIONAL)
+    'text', punya_toko, 5, FailureHandling.OPTIONAL)
 
 if (Landing_page == true) {
 	
 	'Landing Page/Home Page'
 	Mobile.takeScreenshot()
 	
-    Mobile.tap(findTestObject('Landing Page/next 1'), 10)
+    Mobile.tap(findTestObject('Landing Page/next 1'), 5)
 
-    Mobile.tap(findTestObject('Landing Page/next 2'), 10)
+    Mobile.tap(findTestObject('Landing Page/next 2'), 5)
 	
-    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 10)
+    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 5)
 }
 
 'Home Page'
@@ -50,17 +50,17 @@ Mobile.takeScreenshot()
 'Check User already Login or Not'
 if (Mobile.verifyElementNotExist(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 5, FailureHandling.OPTIONAL)) {
 	Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), GlobalVariable.email_dev,
-		10)
+		5)
 
 	Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), GlobalVariable.pass_dev,
-		10)
+		5)
 
 	'Menginput field email & password'
 	Mobile.takeScreenshot()
 
-	Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 10)
+	Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 5)
 
-	Mobile.waitForElementPresent(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 10)
+	Mobile.waitForElementPresent(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 5)
 
 	'Verify'
 	Mobile.verifyElementText(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 'Profil Saya')

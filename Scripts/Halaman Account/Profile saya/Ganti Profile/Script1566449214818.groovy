@@ -20,33 +20,33 @@ Mobile.startApplication(GlobalVariable.ApkFile, false)
 Mobile.delay(3)
 
 punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    10, FailureHandling.OPTIONAL)
+    5, FailureHandling.OPTIONAL)
 
 Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    'text', punya_toko, 10, FailureHandling.OPTIONAL)
+    'text', punya_toko, 5, FailureHandling.OPTIONAL)
 
 if (Landing_page == true) {
 	
 	'Landing Page/Home Page'
 	Mobile.takeScreenshot()
 	
-    Mobile.tap(findTestObject('Landing Page/next 1'), 10)
+    Mobile.tap(findTestObject('Landing Page/next 1'), 5)
 
-    Mobile.tap(findTestObject('Landing Page/next 2'), 10)
+    Mobile.tap(findTestObject('Landing Page/next 2'), 5)
 	
-    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 10)
+    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 5)
 }
 
 'Home Page'
 Mobile.takeScreenshot()
 
-Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 10)
+Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 5)
 
-Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 10)
+Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView0 - Profil Saya'), 10)
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView0 - Profil Saya'), 5)
 
 Mobile.scrollToText('UBAH PROFIL')
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Profile Saya/android.widget.TextView19 - UBAH PROFIL'))
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Profile Saya/android.widget.TextView19 - UBAH PROFIL'), 5)
 

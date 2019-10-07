@@ -12,8 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObjectProperty
 
-WS.comment(' ')
+request = WS.sendRequest(findTestObject('Object Repository/Auth Login'))
 
-WS.comment('')
+//Get Auth
+def slurper = new groovy.json.JsonSlurper()
+def response = slurper.parseText(request.getResponseBodyContent())
+def token = response.access_token
+
+println (token)
 
