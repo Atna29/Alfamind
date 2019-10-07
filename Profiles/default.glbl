@@ -114,4 +114,14 @@
       <initValue>'tester2@grr.la'</initValue>
       <name>new_email_register_jaringan</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL webview topup</description>
+      <initValue>'https://devmind1.net/app_alfamind/doku_rq/topup?access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNTI5Njg3Iiwic3ViIjoiYWxmYS50ZXN0d2lyQGdtYWlsLmNvbSIsImlzcyI6IjE1Mjk2ODcifQ.6TB2va1Ke3OclBki6Sninkhnh40fw1WChE_0e8pgQvE'</initValue>
+      <name>webview_topup</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>service</description>
+      <initValue>'user/authenticate'</initValue>
+      <name>auth_login</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

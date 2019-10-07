@@ -12,27 +12,29 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import com.kms.katalon.core.appium.driver.SwipeableAndroidDriver as SwipeableAndroidDriver
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
 
 Mobile.startApplication(GlobalVariable.ApkFile, false)
 
 Mobile.delay(3)
 
 punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    5, FailureHandling.OPTIONAL)
+    10, FailureHandling.OPTIONAL)
 
 Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    'text', punya_toko, 5, FailureHandling.OPTIONAL)
+    'text', punya_toko, 10, FailureHandling.OPTIONAL)
 
 if (Landing_page == true) {
-    'Landing Page/Home Page'
-    Mobile.takeScreenshot()
+	
+	'Landing Page/Home Page'
+	Mobile.takeScreenshot()
+	
+    Mobile.tap(findTestObject('Landing Page/next 1'), 10)
 
-    Mobile.tap(findTestObject('Landing Page/next 1'), 5)
-
-    Mobile.tap(findTestObject('Landing Page/next 2'), 5)
-
-    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 5)
+    Mobile.tap(findTestObject('Landing Page/next 2'), 10)
+	
+    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 10)
 }
 
 'Home Page'
@@ -42,27 +44,14 @@ Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 't
 
 Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView1 - Saldo  E-wallet'), 5)
+'Halaman Login/Account'
+Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Topup'), 5)
+Mobile.tap(findTestObject('Object Repository/LOGIN/android.widget.TextView2 - LUPA PASSWORD'), 5)
 
-Mobile.delay(5)
+Mobile.setText(findTestObject('Object Repository/Password/Email Anda'), GlobalVariable.email_dev, 5)
 
-Set<String> contextNames = driver.getContextHandles();
-for (String contextName : contextNames) {
-	System.out.println(contextNames); //prints out something like NATIVE_APP \n WEBVIEW_1
-}
-driver.context(contextNames.toArray()[1]); // set context to WEBVIEW_1
+Mobile.tap(findTestObject('Object Repository/Password/AJUKAN'), 5)
 
-//do some web testing
-String myText = driver.findElement(By.cssSelector(".green_button")).click();
-
-driver.context("NATIVE_APP");
-
-// do more native testing if we want
-
-driver.quit();
-
-Mobile.switchToWebView()
-
-WebUI.setText(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Page_Topup Alfamind/input_Jumlah (minimal IDR 20000 maksimum IDR 10000000)_amount'), '20000', 5)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Password/Assert/Password Baru Sudah  Terkirim ke E-mail Anda'), 'text', '''Password Baru Sudah 
+ Terkirim ke E-mail Anda''', 5)
