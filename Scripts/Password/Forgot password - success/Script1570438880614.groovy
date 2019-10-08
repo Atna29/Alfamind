@@ -51,7 +51,11 @@ Mobile.tap(findTestObject('Object Repository/LOGIN/android.widget.TextView2 - LU
 
 Mobile.setText(findTestObject('Object Repository/Password/Email Anda'), GlobalVariable.email_dev, 5)
 
+Mobile.takeScreenshot()
+
 Mobile.tap(findTestObject('Object Repository/Password/AJUKAN'), 5)
 
 Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Password/Assert/Password Baru Sudah  Terkirim ke E-mail Anda'), 'text', '''Password Baru Sudah 
  Terkirim ke E-mail Anda''', 5)
+
+Mobile.takeScreenshot()

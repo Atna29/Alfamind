@@ -12,22 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.appium.driver.SwipeableAndroidDriver as SwipeableAndroidDriver
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
 
-'Memulai Aplikasi'
 Mobile.startApplication(GlobalVariable.ApkFile, false)
 
-'Delay'
 Mobile.delay(3)
 
-'Check Landing page'
 punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
     5, FailureHandling.OPTIONAL)
 
-'Landing page'
 Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
     'text', punya_toko, 5, FailureHandling.OPTIONAL)
 
-'Run Landing page'
 if (Landing_page == true) {
     'Landing Page/Home Page'
     Mobile.takeScreenshot()
@@ -75,12 +72,21 @@ Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 't
 
 Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
-'Tap Menu Jaringan'
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView4 - Jaringan'), 5)
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView0 - Profil Saya'), 5)
 
-'Tap Daftar Anggota Baru'
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Jaringan/Pendaftaran Anggota'), 5)
+Mobile.scrollToText('UBAH PASSWORD')
 
-'Call Test Case Register'
-Mobile.callTestCase(findTestCase('Halaman Account/Jaringan/0 Registrasi jaringan'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Profile Saya/android.widget.TextView20 - UBAH PASSWORD'), 5)
 
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Profile Saya/Ubah Password/Lupa Password'), 5)
+
+Mobile.setText(findTestObject('Object Repository/Password/Email Anda'), GlobalVariable.email_dev, 5)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Object Repository/Password/AJUKAN'), 5)
+
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Password/Assert/Password Baru Sudah  Terkirim ke E-mail Anda'), 'text', '''Password Baru Sudah
+ Terkirim ke E-mail Anda''', 5)
+
+Mobile.takeScreenshot()

@@ -27,42 +27,23 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.appium.driver.SwipeableAndroidDriver as SwipeableAndroidDriver
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
 
-'Memulai Aplikasi'
-Mobile.startApplication(GlobalVariable.ApkFile, false)
 
-'Delay'
-Mobile.delay(3)
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Pengaturan/TAMBAH ALAMAT'), 5)
 
-'Check Landing page'
-punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'),
-	5, FailureHandling.OPTIONAL)
+Mobile.pressBack()
 
-'Landing page'
-Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'),
-	'text', punya_toko, 5, FailureHandling.OPTIONAL)
+Mobile.setText(findTestObject('Object Repository/Halaman Akun/Pengaturan/Tambah_alamat/Nama Konsumen'), GlobalVariable.nama_konsumen,
+	5)
 
-'Run Landing page'
-if (Landing_page == true) {
-	'Landing Page/Home Page'
-	Mobile.takeScreenshot()
+Mobile.setText(findTestObject('Object Repository/Halaman Akun/Pengaturan/Tambah_alamat/No Hp'), GlobalVariable.no_hp_tambah_alamat,
+	5)
 
-	Mobile.tap(findTestObject('Landing Page/next 1'), 5)
+Mobile.setText(findTestObject('Object Repository/Halaman Akun/Pengaturan/Tambah_alamat/Alamat'), GlobalVariable.alamat_tambah_alamat,
+	5)
 
-	Mobile.tap(findTestObject('Landing Page/next 2'), 5)
+Mobile.callTestCase(findTestCase('Halaman Account/Pengaturan/Atur alamat/0 alamat provinsi'), [:], FailureHandling.STOP_ON_FAILURE)
 
-	Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 5)
-}
-
-'Home Page'
-Mobile.takeScreenshot()
-
-'Menunggu Menu Akun'
-Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 5)
-
-'Tap Menu Akun'
-Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
-
-Mobile.tap(findTestObject('Halaman Akun/Bantuan/Kontak Layanan/android.widget.TextView5 - Bantuan'), 5)
-
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Bantuan/Manual Alfamind/Manual Alfamind'), 5)
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Pengaturan/Tambah_alamat/Button Tambah'), 5)

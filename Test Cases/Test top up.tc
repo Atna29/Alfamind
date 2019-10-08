@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Registrasi jaringan</name>
+   <name>Test top up</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>757a319c-d028-4bc2-b65a-5d03770bc2c5</testCaseGuid>
+   <testCaseGuid>e756222e-3419-443b-9262-d6f850e41dca</testCaseGuid>
 </TestCaseEntity>

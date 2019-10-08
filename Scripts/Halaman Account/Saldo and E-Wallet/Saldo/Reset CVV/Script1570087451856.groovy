@@ -43,5 +43,9 @@ Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
 Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView1 - Saldo  E-wallet'), 5)
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/RESET KODE CVV'), 5)
+Mobile.tap(findTestObject('Halaman Akun/Saldo and E-Wallet/Saldo/CVV/RESET KODE CVV'), 5)
 
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/CVV/YA'), 5)
+
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/CVV/Assert/Kode CVV Baru TelahDikirimkan ke Email Anda'), 'text', '''Kode CVV Baru Telah
+Dikirimkan ke Email Anda''', 5)

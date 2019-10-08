@@ -106,7 +106,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'685976'</initValue>
+      <initValue>'208654'</initValue>
       <name>CVV</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -123,5 +123,40 @@
       <description>service</description>
       <initValue>'user/authenticate'</initValue>
       <name>auth_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DOKU page</description>
+      <initValue>'1909800024'</initValue>
+      <name>doku_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DOKU page</description>
+      <initValue>'dokutes123'</initValue>
+      <name>doku_pass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Topup page</description>
+      <initValue>'20000'</initValue>
+      <name>balance_topup</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DOKU page</description>
+      <initValue>'1122'</initValue>
+      <name>pin_doku</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tambah Alamat page</description>
+      <initValue>'TESTING DOANG'</initValue>
+      <name>nama_konsumen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tambah Alamat page</description>
+      <initValue>'088801426139'</initValue>
+      <name>no_hp_tambah_alamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tambah Alamat page</description>
+      <initValue>'jalan jalan'</initValue>
+      <name>alamat_tambah_alamat</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -48,21 +48,16 @@ Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Sal
 
 Mobile.delay(5)
 
-Set<String> contextNames = driver.getContextHandles();
-for (String contextName : contextNames) {
-	System.out.println(contextNames); //prints out something like NATIVE_APP \n WEBVIEW_1
-}
-driver.context(contextNames.toArray()[1]); // set context to WEBVIEW_1
+Mobile.setText(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Top UP/Input Balance'), GlobalVariable.balance_topup, 5)
 
-//do some web testing
-String myText = driver.findElement(By.cssSelector(".green_button")).click();
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Top UP/Lanjut'), 5)
 
-driver.context("NATIVE_APP");
+Mobile.delay(5)
 
-// do more native testing if we want
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Top UP/Pilih DOKU'), 5)
 
-driver.quit();
+Mobile.setText(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Top UP/Doku ID'), GlobalVariable.doku_id, 5)
 
-Mobile.switchToWebView()
+Mobile.setText(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Top UP/Password Doku'), GlobalVariable.doku_pass, 5)
 
-WebUI.setText(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Page_Topup Alfamind/input_Jumlah (minimal IDR 20000 maksimum IDR 10000000)_amount'), '20000', 5)
+Mobile.tap(findTestObject('Object Repository/Halaman Akun/Saldo and E-Wallet/Saldo/Top UP/PAY button'), 5)
