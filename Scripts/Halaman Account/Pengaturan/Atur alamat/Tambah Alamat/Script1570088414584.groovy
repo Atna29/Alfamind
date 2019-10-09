@@ -15,16 +15,20 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.appium.driver.SwipeableAndroidDriver as SwipeableAndroidDriver
 import com.kms.katalon.core.util.internal.PathUtil as PathUtil
 
+'Menjalankan aplikasi'
 Mobile.startApplication(GlobalVariable.ApkFile, false)
 
+'delay selama 3 detik'
 Mobile.delay(3)
 
+'Check landing page'
 punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
     5, FailureHandling.OPTIONAL)
 
 Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
     'text', punya_toko, 5, FailureHandling.OPTIONAL)
 
+'Menjalankan jika terdapat landing page'
 if (Landing_page == true) {
     'Landing Page/Home Page'
     Mobile.takeScreenshot()
@@ -39,8 +43,10 @@ if (Landing_page == true) {
 'Home Page'
 Mobile.takeScreenshot()
 
+'Menunggu sampai menu AKUN muncul'
 Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 5)
 
+'Mengtap menu AKUN'
 Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
 'Halaman Login/Account'
@@ -76,4 +82,13 @@ Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextVie
 
 Mobile.tap(findTestObject('Object Repository/Halaman Akun/Pengaturan/Atur Alamat'), 5)
 
+'Tampilan sebelum alamat ditambahkan'
+Mobile.takeScreenshot()
+
 Mobile.callTestCase(findTestCase('Halaman Account/Pengaturan/Atur alamat/0 tambah alamat'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Akun/Pengaturan/Tambah_alamat/Assert/verify (tambah alamat) - TESTING DOANG - 088801426139'), 
+    'text', (GlobalVariable.nama_konsumen + ' - ') + GlobalVariable.no_hp_tambah_alamat, 5)
+
+'Tampilan setelah alamat ditambahkan'
+Mobile.takeScreenshot()

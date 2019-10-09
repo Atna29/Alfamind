@@ -12,19 +12,22 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.appium.driver.SwipeableAndroidDriver as SwipeableAndroidDriver
-import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
+'Menjalankan aplikasi'
 Mobile.startApplication(GlobalVariable.ApkFile, false)
 
+'delay selama 3 detik'
 Mobile.delay(3)
 
+'Check landing page'
 punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
     5, FailureHandling.OPTIONAL)
 
 Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
     'text', punya_toko, 5, FailureHandling.OPTIONAL)
 
+'Menjalankan jika terdapat landing page'
 if (Landing_page == true) {
     'Landing Page/Home Page'
     Mobile.takeScreenshot()
@@ -39,8 +42,10 @@ if (Landing_page == true) {
 'Home Page'
 Mobile.takeScreenshot()
 
+'Menunggu sampai menu AKUN muncul'
 Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 5)
 
+'Mengtap menu AKUN'
 Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
 'Halaman Login/Account'
@@ -68,33 +73,16 @@ if (Mobile.verifyElementNotExist(findTestObject('Object Repository/LOGIN/Assert/
     Mobile.takeScreenshot()
 }
 
-Mobile.waitForElementAttributeValue(findTestObject('Menu Bawah/Menu - Akun'), 'text', 'Akun', 5)
+Mobile.tap(findTestObject('Object Repository/Menu Bawah/Menu - Belanja'), 5)
 
-Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
+Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Search'), 5)
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/android.widget.TextView6 - Pengaturan'), 5)
+Mobile.setText(findTestObject('Object Repository/Halaman Belanja/Search produk/Cari produk (search)'), GlobalVariable.search_produk_grosir, 5)
 
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Pengaturan/Atur Alamat'), 5)
+produk_search = findTestObject('Object Repository/Halaman Belanja/Search produk/produk search')
 
-Mobile.delay(5)
+produk_search.addProperty('text', ConditionType.EQUALS, GlobalVariable.search_produk_grosir)
 
-'Tampilah sebelum alamat dihapus'
-Mobile.takeScreenshot()
+Mobile.tap(produk_search, 5)
 
-if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Halaman Akun/Pengaturan/Set DEFAULT'), 5, FailureHandling.OPTIONAL)) {
-    Mobile.callTestCase(findTestCase('Halaman Account/Pengaturan/Atur alamat/0 tambah alamat'), [:])
-}
-
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Pengaturan/Hapus alamat/android.widget.TextView0 - HAPUS'), 5)
-
-Mobile.tap(findTestObject('Halaman Akun/Pengaturan/Hapus alamat/hapus - YA'), 5)
-
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Akun/Pengaturan/Tambah_alamat/Assert/Hapus alamat'), 'text', 'Hapus alamat berhasil!', 5)
-
-'Tampilan popup berhasil menghapus alamat'
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Halaman Akun/Pengaturan/Hapus alamat/android.widget.Button0 - OK'), 5)
-
-'Tampilan setelah alamat dihapus'
-Mobile.takeScreenshot()
+Mobile.tapAtPosition(0, 1336)

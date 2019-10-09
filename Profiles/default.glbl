@@ -146,17 +146,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Tambah Alamat page</description>
-      <initValue>'TESTING DOANG'</initValue>
+      <initValue>'TESTING DOANG 3'</initValue>
       <name>nama_konsumen</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Tambah Alamat page</description>
-      <initValue>'088801426139'</initValue>
+      <initValue>'088801426141'</initValue>
       <name>no_hp_tambah_alamat</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Tambah Alamat page</description>
       <initValue>'jalan jalan'</initValue>
       <name>alamat_tambah_alamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search Page</description>
+      <initValue>'JBL C100SI'</initValue>
+      <name>search_nama_produk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search Page</description>
+      <initValue>'Bimoli Minyak Goreng Pouch 2L'</initValue>
+      <name>search_produk_grosir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search Page</description>
+      <initValue>'JBL C100SI'</initValue>
+      <name>search_produk_reguler</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

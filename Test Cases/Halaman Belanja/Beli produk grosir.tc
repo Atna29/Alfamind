@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add item</name>
+   <name>Beli produk grosir</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e27229c4-704a-4cec-8091-1cae3e7f2671</testCaseGuid>
+   <testCaseGuid>a7def37f-11dc-4c02-90b7-25ff1f2af5e1</testCaseGuid>
 </TestCaseEntity>
