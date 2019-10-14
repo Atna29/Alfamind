@@ -52,45 +52,49 @@ Mobile.takeScreenshot()
 
 'Check User already Login or Not'
 if (Mobile.verifyElementNotExist(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 5, FailureHandling.OPTIONAL)) {
-	Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), GlobalVariable.email_dev,
-		5)
+    Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), GlobalVariable.email_dev, 
+        5)
 
-	Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), GlobalVariable.pass_dev,
-		5)
+    Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), GlobalVariable.pass_dev, 
+        5)
 
-	'Menginput field email & password'
-	Mobile.takeScreenshot()
+    'Menginput field email & password'
+    Mobile.takeScreenshot()
 
-	Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 5)
+    Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 5)
 
-	Mobile.waitForElementPresent(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 5)
+    Mobile.waitForElementPresent(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 5)
 
-	'Verify'
-	Mobile.verifyElementText(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 'Profil Saya')
+    'Verify'
+    Mobile.verifyElementText(findTestObject('Object Repository/LOGIN/Assert/Profil Saya'), 'Profil Saya')
 
-	'Halaman Akun'
-	Mobile.takeScreenshot()
+    'Halaman Akun'
+    Mobile.takeScreenshot()
 }
 
 Mobile.tap(findTestObject('Object Repository/Menu Bawah/Menu - Belanja'), 5)
 
 quantity = Mobile.getText(findTestObject('Object Repository/Halaman Belanja/quantity item cart di homepage'), 5, FailureHandling.OPTIONAL)
 
-if(quantity == false)
-{
-	Mobile.scrollToText("Groceries")
+if (quantity == null) {
+
+	CustomKeywords.'com.my.keywords.android.swiping.scrollListToElementWithText'('Groceries')
 	
-	Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Floor/Tambah di floor'), 5)
-	
-	Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Belanja/quantity item cart di homepage'), "text", "1", 5)
+    Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Floor/Tambah di floor'), 5)
+
+    Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Belanja/quantity item cart di homepage'), 
+        'text', '1', 5)
 }
 
-Mobile.scrollToText("Groceries")
+println(quantity)
 
-Mobile.scrollToText("Tambah")
+CustomKeywords.'com.my.keywords.android.swiping.scrollListToElementWithText'('Groceries')
 
 Mobile.tap(findTestObject('Object Repository/Halaman Belanja/Floor/Tambah di floor'), 5)
 
-total_quantity = quantity + 1
+total_quantity = (quantity + 1)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Belanja/quantity item cart di homepage'), "text", total_quantity, 5)
+println(total_quantity)
+
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Halaman Belanja/quantity item cart di homepage'), 'text', 
+    total_quantity, 5)

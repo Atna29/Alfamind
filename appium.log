@@ -1,20 +1,20 @@
 [35m[Appium][39m Welcome to Appium v1.12.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 8020
+[35m[Appium][39m   port: 10729
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   chromeDriverPort: 8021
-[35m[Appium][39m   tmpDir: C:\Users\METEOR~1\AppData\Local\Temp\\Katalon\Appium\Temp1570599121439
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:8020
+[35m[Appium][39m   chromeDriverPort: 10730
+[35m[Appium][39m   tmpDir: C:\Users\METEOR~1\AppData\Local\Temp\\Katalon\Appium\Temp1571039518826
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:10729
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m14 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 041019_1408.apk","noReset":true,"deviceId":"","deviceName":"vivo vivo 1802 (Android 8.1.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ZDDAE6LZQKTKW4BI","systemPort":8044},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 041019_1408.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"vivo vivo 1802 (Android 8.1.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8044,"appium:udid":"ZDDAE6LZQKTKW4BI"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 041019_1408.apk","noReset":true,"deviceId":"","deviceName":"vivo vivo 1802 (Android 8.1.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ZDDAE6LZQKTKW4BI","systemPort":10742},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 041019_1408.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"vivo vivo 1802 (Android 8.1.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":10742,"appium:udid":"ZDDAE6LZQKTKW4BI"}]}}[39m
 [35m[BaseDriver][39m The capabilities ["deviceId","platform"] are not standard capabilities and should have an extension prefix
 [35m[Appium][39m Appium v1.12.1 creating new AndroidUiautomator2Driver (v1.33.0) session
 [35m[Appium][39m Capabilities:
@@ -29,10 +29,10 @@
 [35m[Appium][39m   newCommandTimeout: 1800
 [35m[Appium][39m   noReset: true
 [35m[Appium][39m   platformVersion: 8.1.0
-[35m[Appium][39m   systemPort: 8044
+[35m[Appium][39m   systemPort: 10742
 [35m[Appium][39m   udid: ZDDAE6LZQKTKW4BI
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
-[35m[BaseDriver][39m Session created with session id: c056fd0c-1015-4d85-94f4-34c1cd8a8037
+[35m[BaseDriver][39m Session created with session id: 9ae90b63-0fc9-4751-8dad-93c1739a4188
 [35m[BaseDriver][39m Using local app 'C:\Users\Meteor_PC\Downloads\Alfamind_debug - env_dev_v2 - 041019_1408.apk'
 [35m[ADB][39m Checking whether adb is present
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Meteor_PC\.katalon\tools\android_sdk' (newest first):
@@ -56,57 +56,63 @@
 [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'id.meteor.alfamind/id.meteor.alfamind.Activity.SplashActivity'. Starting it ourselves
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session c056fd0c-1015-4d85-94f4-34c1cd8a8037 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m19919 ms - 1305[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 9ae90b63-0fc9-4751-8dad-93c1739a4188 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m18080 ms - 1307[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037 [39m[32m200[39m [90m97 ms - 1237[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188 [39m[32m200[39m [90m71 ms - 1239[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037 [39m[32m200[39m [90m97 ms - 1237[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188 [39m[32m200[39m [90m48 ms - 1239[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/timeouts [39m[32m200[39m [90m8 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (c056fd0c)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 4b8940a9-90e1-4976-ab58-adba64b929bc with c056fd0c-1015-4d85-94f4-34c1cd8a8037
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/source [39m[32m200[39m [90m611 ms - 2770[39m
+[35m[W3C (9ae90b63)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 82c98941-6052-434c-8df7-4f87faaf3885 with 9ae90b63-0fc9-4751-8dad-93c1739a4188
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/source [39m[32m200[39m [90m873 ms - 2770[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/screenshot [39m[32m200[39m [90m636 ms - 61494[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/screenshot [39m[32m200[39m [90m581 ms - 61494[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (c056fd0c)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 4b8940a9-90e1-4976-ab58-adba64b929bc with c056fd0c-1015-4d85-94f4-34c1cd8a8037
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/source [39m[32m200[39m [90m269 ms - 7279[39m
+[35m[W3C (9ae90b63)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 82c98941-6052-434c-8df7-4f87faaf3885 with 9ae90b63-0fc9-4751-8dad-93c1739a4188
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/source [39m[32m200[39m [90m2031 ms - 51102[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/screenshot [39m[32m200[39m [90m593 ms - 46944[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188/screenshot [39m[32m200[39m [90m691 ms - 82270[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/source[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (c056fd0c)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 4b8940a9-90e1-4976-ab58-adba64b929bc with c056fd0c-1015-4d85-94f4-34c1cd8a8037
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/source [39m[32m200[39m [90m318 ms - 7279[39m
+[35m[Appium][39m Removing session 9ae90b63-0fc9-4751-8dad-93c1739a4188 from our master session list
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":10742}
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:10742
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188 [39m[33m404[39m [90m1487 ms - 3393[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037/screenshot [39m[32m200[39m [90m688 ms - 47396[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session c056fd0c-1015-4d85-94f4-34c1cd8a8037 from our master session list
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/c056fd0c-1015-4d85-94f4-34c1cd8a8037 [39m[32m200[39m [90m540 ms - 14[39m
+[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command 'C\:\\Users\\Meteor_PC\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s ZDDAE6LZQKTKW4BI shell am force-stop id.meteor.alfamind' exited with code 1'; Stderr: 'adb server version (36) doesn't match this client (41); killing...
+[35m[UiAutomator2][39m * daemon started successfully
+[35m[UiAutomator2][39m error: device unauthorized.
+[35m[UiAutomator2][39m This adb server's $ADB_VENDOR_KEYS is not set
+[35m[UiAutomator2][39m Try 'adb kill-server' if that seems wrong.
+[35m[UiAutomator2][39m Otherwise check for a confirmation dialog on your device.'; Code: '1'
+[35m[UiAutomator2][39m Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\Meteor_PC\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s ZDDAE6LZQKTKW4BI forward --remove tcp\:10742' exited with code 1'; Stderr: 'adb.exe: error: device unauthorized.
+[35m[UiAutomator2][39m This adb server's $ADB_VENDOR_KEYS is not set
+[35m[UiAutomator2][39m Try 'adb kill-server' if that seems wrong.
+[35m[UiAutomator2][39m Otherwise check for a confirmation dialog on your device.'; Code: '1''
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/9ae90b63-0fc9-4751-8dad-93c1739a4188 [39m[32m200[39m [90m8262 ms - 14[39m
 [35m[HTTP][39m [90m[39m
