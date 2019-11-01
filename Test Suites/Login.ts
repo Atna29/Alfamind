@@ -14,7 +14,7 @@
       <guid>91ad43d4-8172-4888-bb86-73c41a0f002a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/login-field email null</testCaseId>
+      <testCaseId>Test Cases/Login/Login-Set null (email and password)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0639d3c0-811d-405a-9e31-08eab7302eac</guid>
@@ -26,7 +26,7 @@
       <guid>213bd44e-b1d2-4d59-8f3f-d17f4b164fe9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login success</testCaseId>
+      <testCaseId>Test Cases/Login/Login-Success Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2e86105a-074b-4cb6-b0f9-25734a283816</guid>

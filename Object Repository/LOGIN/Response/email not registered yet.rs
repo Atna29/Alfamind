@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password Baru</name>
+   <name>email not registered yet</name>
    <tag></tag>
-   <elementGuidId>6eb35200-1115-4504-bb34-772ee6b7778b</elementGuidId>
+   <elementGuidId>1d176ef3-2b6a-4b6f-ad28-f156392b3465</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @package = 'id.meteor.alfamind' and @resource-id = 'id.meteor.alfamind:id/et_new']</value>
+         <value>//*[@class = 'android.widget.TextView']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.EditText</value>
+      <value>android.widget.TextView</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>instance</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
       <value>id.meteor.alfamind</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>resource-id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>id.meteor.alfamind:id/et_new</value>
+      <value>Login gagal. Pastikan email dan password anda sudah benar.</value>
    </webElementProperties>
 </WebElementEntity>

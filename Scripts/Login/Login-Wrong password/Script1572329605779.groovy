@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
 Mobile.takeScreenshot()
 
-Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), 'asjjj', 
+Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), GlobalVariable.email_dev, 
     5)
 
 Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), '121333', 5)
@@ -57,7 +57,7 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 5)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/LOGIN/Response/Masukkan alamat email yang benar'), 'text', 'Masukkan alamat email yang benar', 5)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/LOGIN/Response/email not registered yet'), 'text', 'Login gagal. Pastikan email dan password anda sudah benar.', 5)
 
 Mobile.takeScreenshot()
 

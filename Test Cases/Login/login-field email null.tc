@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>login-field email null</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ac0b765c-21b2-4d9d-bc0d-f8dbca4dac7f</testCaseGuid>
-</TestCaseEntity>

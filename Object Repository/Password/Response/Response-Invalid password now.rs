@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Password Baru</name>
+   <name>Response-Invalid password now</name>
    <tag></tag>
-   <elementGuidId>6eb35200-1115-4504-bb34-772ee6b7778b</elementGuidId>
+   <elementGuidId>783922f4-6572-41fa-aa39-1b1b9262be5b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @package = 'id.meteor.alfamind' and @resource-id = 'id.meteor.alfamind:id/et_new']</value>
+         <value>//*[@class = 'android.widget.TextView' and @package = 'id.meteor.alfamind' and (text() = 'Kata kunci lama anda salah, tidak ada perubahan data' or . = 'Kata kunci lama anda salah, tidak ada perubahan data')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,14 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.EditText</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>instance</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>android.widget.TextView</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,8 +29,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>resource-id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>id.meteor.alfamind:id/et_new</value>
+      <value>Kata kunci lama anda salah, tidak ada perubahan data</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and @instance = '2' and @package = 'id.meteor.alfamind' and (text() = 'id.meteor.alfamind:id/et_new2' or . = 'id.meteor.alfamind:id/et_new2')]</value>
+         <value>//*[@class = 'android.widget.EditText' and @package = 'id.meteor.alfamind' and @resource-id = 'id.meteor.alfamind:id/et_new2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>android.widget.EditText</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>instance</name>
       <type>Main</type>

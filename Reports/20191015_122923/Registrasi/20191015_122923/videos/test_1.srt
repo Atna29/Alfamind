@@ -1,0 +1,88 @@
+1
+00:00:01,793 --> 00:00:01,812
+1. startApplication(ApkFile, false)
+
+2
+00:01:15,719 --> 00:01:15,722
+5. delay(3)
+
+3
+00:01:18,933 --> 00:01:18,938
+9. punya_toko = getText(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), 5, OPTIONAL)
+
+4
+00:01:25,790 --> 00:01:25,795
+13. Landing_page = verifyElementAttributeValue(findTestObject("Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim"), "text", punya_toko, 5, OPTIONAL)
+
+5
+00:01:26,455 --> 00:01:26,457
+17. if (Landing_page == true)
+
+6
+00:01:26,460 --> 00:01:26,463
+23. Home Page
+
+7
+00:01:27,661 --> 00:01:27,664
+27. waitForElementAttributeValue(findTestObject("Menu Bawah/Menu - Akun"), "text", "Akun", 5)
+
+8
+00:01:28,698 --> 00:01:28,705
+31. tap(findTestObject("Menu Bawah/Menu - Akun"), 5)
+
+9
+00:01:30,495 --> 00:01:30,496
+37. Halaman Login
+
+10
+00:01:31,303 --> 00:01:31,305
+43. Button Daftar Baru
+
+11
+00:01:33,429 --> 00:01:33,431
+49. Input nama depan
+
+12
+00:01:34,736 --> 00:01:34,740
+55. Input nama belakang
+
+13
+00:01:36,463 --> 00:01:36,464
+61. Pilih jenis kelamin
+
+14
+00:01:38,158 --> 00:01:38,160
+65. object_jeniskelamin = findTestObject("Halaman Registrasi/pilihan registrasi/Pilihan - jenis kelamin")
+
+15
+00:01:38,345 --> 00:01:38,347
+69. object_jeniskelamin.addProperty("text", EQUALS, jenis_kelamin)
+
+16
+00:01:38,409 --> 00:01:38,412
+73. tap(object_jeniskelamin, 5)
+
+17
+00:01:40,494 --> 00:01:40,496
+79. Pilih email
+
+18
+00:01:41,888 --> 00:01:41,892
+85. Pilih tanggal lahir
+
+19
+00:01:44,152 --> 00:01:44,154
+89. object_tanggal = findTestObject("Object Repository/Halaman Registrasi/pilihan registrasi/Pilihan - Tanggal lahir")
+
+20
+00:01:44,312 --> 00:01:44,315
+93. object_tanggal.addProperty("text", EQUALS, tanggal_lahir)
+
+21
+00:01:44,338 --> 00:01:44,361
+97. if (verifyElementNotExist(object_tanggal, 5, OPTIONAL))
+
+22
+00:01:49,453 --> 00:01:49,454
+1. scrollToText(tanggal_lahir)
+

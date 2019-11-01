@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Prod</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_dev_v2 - 141019_1522.apk'</initValue>
+      <initValue>'C:\\Users\\Meteor_PC\\Downloads\\Alfamind_debug - env_prod_v1 - 241019_1451 (1).apk'</initValue>
       <name>ApkFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,8 +96,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Login Page</description>
-      <initValue>'123456'</initValue>
+      <initValue>'dlrhg1'</initValue>
       <name>pass_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Profile, Ubah password</description>
+      <initValue>'dlrhg1'</initValue>
+      <name>new_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Beli pulsa Page</description>

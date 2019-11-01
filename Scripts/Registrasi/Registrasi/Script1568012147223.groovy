@@ -201,3 +201,6 @@ Mobile.checkElement(findTestObject('Object Repository/Halaman Registrasi/Registr
 
 'Daftar'
 Mobile.tap(findTestObject('Object Repository/Halaman Registrasi/Registrasi - DAFTAR'), 5)
+
+'Capture'
+Mobile.takeScreenshot()

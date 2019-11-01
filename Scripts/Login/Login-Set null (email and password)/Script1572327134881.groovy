@@ -12,8 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.appium.driver.SwipeableAndroidDriver as SwipeableAndroidDriver
-import com.kms.katalon.core.util.internal.PathUtil as PathUtil
 
 Mobile.startApplication(GlobalVariable.ApkFile, false)
 
@@ -21,22 +19,22 @@ Mobile.delay(3)
 
 Mobile.takeScreenshot()
 
-punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    5, FailureHandling.OPTIONAL)
+punya_toko = Mobile.getText(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'),
+	5, FailureHandling.OPTIONAL)
 
-Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'), 
-    'text', punya_toko, 5, FailureHandling.OPTIONAL)
+Landing_page = Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Landing Page/android.widget.TextView0 - Punya Toko Sendiri Dengan Modal Minim'),
+	'text', punya_toko, 5, FailureHandling.OPTIONAL)
 
 if (Landing_page == true) {
-
+	
 	'Landing Page/Home Page'
 	Mobile.takeScreenshot()
-	
+
 	Mobile.tap(findTestObject('Landing Page/next 1'), 5)
 	
 	Mobile.tap(findTestObject('Landing Page/next 2'), 5)
 	
-    Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 5)
+	Mobile.tap(findTestObject('Object Repository/Landing Page/android.widget.Button0 - MULAI'), 5)
 }
 
 'Home Page'
@@ -48,17 +46,13 @@ Mobile.tap(findTestObject('Menu Bawah/Menu - Akun'), 5)
 
 Mobile.takeScreenshot()
 
-Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText0 - Username or email address'), 'asjjj', 
-    5)
-
-Mobile.setText(findTestObject('Object Repository/LOGIN/android.widget.EditText1 - Password'), '121333', 5)
-
-Mobile.takeScreenshot()
-
 Mobile.tap(findTestObject('Object Repository/LOGIN/Login Button'), 5)
 
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/LOGIN/Response/Masukkan alamat email yang benar'), 'text', 'Masukkan alamat email yang benar', 5)
+Mobile.waitForElementPresent(findTestObject('Object Repository/LOGIN/Response/Masukkan alamat email'), 5)
 
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/LOGIN/Response/Masukkan alamat email') ,'text', 'Masukkan alamat email', 5)
+
+'Popup'
 Mobile.takeScreenshot()
 
 Mobile.closeApplication()
